@@ -67,10 +67,15 @@ Complete la siguiente tabla y justifique brevemente cada respuesta.
   Propiedad      Clasificación     Justificación
   -------------- ----------------- ---------------
   Observable     Total              Ya que el agente tiene acceso a la información que necesita para actuar y generar la imagen (el prompt, las configuraciones, etc)
+  
   Determinista   No                 Ya que si no se fija la semilla, al ser una IA generativa la imagen va a ser diferente cada vez que se genere
+  
   Episódico      Sí                 Ya que cada tarea (generar imagen) es un evento o episodio diferente y no se tienen en cuenta prompts pasados
-  Estático       Sí                 Ya que ni el prompt ni las configuraciones cambian mientras el modelo está generando la imagen           
-  Discreto       Sí                 Ya que sigue el mismo proceso, recibe un prompt y devuelve una imagen          
+  
+  Estático       Sí                 Ya que ni el prompt ni las configuraciones cambian mientras el modelo está generando la imagen
+  
+  Discreto       Sí                 Ya que sigue el mismo proceso, recibe un prompt y devuelve una imagen
+  
   Conocido       Sí                 Ya que el agente trabaja bajo reglas ya predefinidas que le indican como transformar el prompt a la imagen           
 
 ------------------------------------------------------------------------
