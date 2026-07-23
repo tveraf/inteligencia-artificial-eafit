@@ -98,7 +98,7 @@ Encuentre un Space que pueda clasificarse como:
 1.  **Totalmente observable, determinista y episódico.** -> https://huggingface.co/spaces/not-lain/background-removal
 R:// es totalmente observable porque toda la información necesaria ya está contenida en los píxeles de la imagen subida, determinista porque procesar la misma foto siempre va a generar exactamente el mismo recorte sin factores de aleatoriedad, y episódico porque eliminar el fondo de una imagen es una tarea independiente que no afecta a las siguientes
 
-2.  **Parcialmente observable, estocástico y secuencial.** ->
+2.  **Parcialmente observable, estocástico y secuencial.** -> https://huggingface.co/spaces/agents-course/First_agent_template
 R:// Es parcialmente observable porque el agente no conoce toda la información del mundo exterior ni la intención real del usuario si este no ha interactuado lo suficiente, estocástico porque al estar basado en un modelo de lenguaje (LLM) la misma pregunta puede generar respuestas diferentes, y secuencial porque cada paso que da o respuesta que genera depende de las acciones y el historial de la conversación anterior
 
 ------------------------------------------------------------------------
