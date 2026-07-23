@@ -44,7 +44,6 @@ El agente genera imagenes realistas partiendo de un prompt que el usuario ingres
 
 ## 3. Análisis PEAS
 
-  Elemento          Respuesta
   ----------------- ----------------------------------------------------
   **Performance**   ¿Qué significa que el agente haga bien su trabajo?
                     R:// Que la imagen generada realmente refleje las instrucciones dadas en el prompt y que lo haga de manera rápida
@@ -64,7 +63,6 @@ El agente genera imagenes realistas partiendo de un prompt que el usuario ingres
 
 Complete la siguiente tabla y justifique brevemente cada respuesta.
 
-  Propiedad      Clasificación     Justificación
   -------------- ----------------- ---------------
   Observable     Total              Ya que el agente tiene acceso a la información que necesita para actuar y generar la imagen (el prompt, las configuraciones, etc)
   
