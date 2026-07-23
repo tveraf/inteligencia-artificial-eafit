@@ -89,31 +89,17 @@ R:// Ya que este agente genera imagenes basándose solamente en el prompt actual
       el resultado que entrega el agente (en este caso la imagen generada). También porque el agente no mantiene un estado continuo entre episodios y tampoco aprende del usuario, solamente dado un texto este aplica
       sus reglas ya predefinidas y ejecuta la acción programada (crear la imagen)
 
-> **Importante:** No existe una única respuesta correcta. Lo importante
-> es justificar la elección a partir del comportamiento observado.
-
-------------------------------------------------------------------------
-
-# Discusión en clase
-
-Después de las presentaciones, discutiremos preguntas como:
-
--   ¿Dos Spaces diferentes pueden compartir el mismo tipo de entorno?
--   ¿Es posible saber con certeza qué tipo de agente implementa un Space
-    únicamente observándolo?
--   ¿Qué diferencia existe entre el comportamiento observable de un
-    agente y su implementación interna?
-
 ------------------------------------------------------------------------
 
 # Reto adicional
 
 Encuentre un Space que pueda clasificarse como:
 
-1.  **Totalmente observable, determinista y episódico.**
-2.  **Parcialmente observable, estocástico y secuencial.**
+1.  **Totalmente observable, determinista y episódico.** -> https://huggingface.co/spaces/not-lain/background-removal
+R:// es totalmente observable porque toda la información necesaria ya está contenida en los píxeles de la imagen subida, determinista porque procesar la misma foto siempre va a generar exactamente el mismo recorte sin factores de aleatoriedad, y episódico porque eliminar el fondo de una imagen es una tarea independiente que no afecta a las siguientes
 
-Justifique su respuesta.
+2.  **Parcialmente observable, estocástico y secuencial.** ->
+R:// Es parcialmente observable porque el agente no conoce toda la información del mundo exterior ni la intención real del usuario si este no ha interactuado lo suficiente, estocástico porque al estar basado en un modelo de lenguaje (LLM) la misma pregunta puede generar respuestas diferentes, y secuencial porque cada paso que da o respuesta que genera depende de las acciones y el historial de la conversación anterior
 
 ------------------------------------------------------------------------
 
