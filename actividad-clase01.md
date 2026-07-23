@@ -48,10 +48,13 @@ El agente genera imagenes realistas partiendo de un prompt que el usuario ingres
   ----------------- ----------------------------------------------------
   **Performance**   ¿Qué significa que el agente haga bien su trabajo?
                     R:// Que la imagen generada realmente refleje las instrucciones dadas en el prompt y que lo haga de manera rápida
+                    
   **Environment**   ¿Con qué interactúa el agente?
                     R:// Con laa interfaz web gráfica de Hugging Face
+                    
   **Actuators**     ¿Qué acciones produce?
                     R:// El visualizador de la interfaz que renderiza y presenta en pantalla la imagen generada lista para ser ver o descargar
+                    
   **Sensors**       ¿Qué información recibe como entrada?
                     R:// Recibe la instrucción (prompt) por parte del usuario y las configuraciones avanzadas que se realicen
 
